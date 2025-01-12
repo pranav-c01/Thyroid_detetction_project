@@ -37,7 +37,6 @@ class trainModel:
             """doing the data preprocessing"""
 
             preprocessor=preprocessing.Preprocessor(self.file_object,self.log_writer)
-            #data=preprocessor.remove_columns(data,['Wafer']) # remove the unnamed column as it doesn't contribute to prediction.
 
             #removing unwanted columns as discussed in the EDA part in ipynb file
 
